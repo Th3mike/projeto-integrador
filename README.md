@@ -24,4 +24,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailWindcss](https://tailwindcss.com/)
-- [SPA e SSR]
+- SPA e SSR
