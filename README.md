@@ -10,7 +10,7 @@
 - [Wallace Melges](https://github.com/wallacemelges)
 - [Diego Murilo](https://github.com/diegodmb97)
 
-### Features
+### O que foi desenvolvido?
 
 - [x] EM BREVE
 - [ ] EM BREVE
