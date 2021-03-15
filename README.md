@@ -1,10 +1,7 @@
 <h1 align="center">Stacy Store</h1>
 
 <h4 align="center">O que é?</h4>
-<p>
-Um site desenvolvido para fins de estudos.
-Desenvolvedores: Marcio Lacerda, Wallace Melges, Marcos Vinicius e Diego Murilo.
-</p>
+<p>Um site desenvolvido para uma loja virtual.</p>
 
 ### 🛠 Desenvolvedores
 
@@ -16,7 +13,7 @@ Desenvolvedores: Marcio Lacerda, Wallace Melges, Marcos Vinicius e Diego Murilo.
 ### Features
 
 - [x] EM BREVE
-- [] EM BREVE
+- [ ] EM BREVE
 - [ ] EM BREVE
 
 
