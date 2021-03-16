@@ -1,20 +1,27 @@
-# stacy-store
+<h1 align="center">Stacy Store</h1>
 
-## Build Setup
+<h4 align="center">O que é?</h4>
+<p>Um site desenvolvido para uma loja virtual.</p>
 
-```bash
-# install dependencies
-$ yarn install
+### 🛠 Desenvolvedores
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+- [Marcio Lacerda](https://github.com/th3mike)
+- [Marcos Vinicius](https://github.com/MarcosDS7)
+- [Wallace Melges](https://github.com/wallacemelges)
+- [Diego Murilo](https://github.com/diegodmb97)
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+### ❓ O que foi desenvolvido?
 
-# generate static project
-$ yarn generate
-```
+- [x] EM BREVE
+- [ ] EM BREVE
+- [ ] EM BREVE
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailWindcss](https://tailwindcss.com/)
+- [SPA e SSR](https://www.treinaweb.com.br/blog/spa-e-ssr-quais-as-diferencas/)
