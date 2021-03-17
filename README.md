@@ -1,27 +1,11 @@
-<h1 align="center">Stacy Store</h1>
+# STATIC
 
-<h4 align="center">O que é?</h4>
-<p>Um site desenvolvido para uma loja virtual.</p>
+**This directory is not required, you can delete it if you don't want to use it.**
 
-### 🛠 Desenvolvedores
+This directory contains your static files.
+Each file inside this directory is mapped to `/`.
+Thus you'd want to delete this README.md before deploying to production.
 
-- [Marcio Lacerda](https://github.com/th3mike)
-- [Marcos Vinicius](https://github.com/MarcosDS7)
-- [Wallace Melges](https://github.com/wallacemelges)
-- [Diego Murilo](https://github.com/diegodmb97)
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-### ❓ O que foi desenvolvido?
-
-- [x] EM BREVE
-- [ ] EM BREVE
-- [ ] EM BREVE
-
-
-### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [TailWindcss](https://tailwindcss.com/)
-- [SPA e SSR](https://www.treinaweb.com.br/blog/spa-e-ssr-quais-as-diferencas/)
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
