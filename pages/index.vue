@@ -1,37 +1,25 @@
 <template>
-  <!-- As tags abaixo ficam localizadas em components -->
-  <div>
-    <Menu />
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <h1>teste</h1>
-    <Footer />
+  <div class="carrousel">
+
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
+
+<style escoped>
+/* Sample `apply` at-rules with Tailwind CSS
+.container {
+@apply min-h-screen flex justify-center items-center text-center mx-auto;
+}
+*/
+
+.carrousel{
+  width: 100%;
+  height: 350px;
+  background: #DECBB7;
+
+}
+
+</style>
