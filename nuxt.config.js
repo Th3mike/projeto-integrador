@@ -1,6 +1,10 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    target: 'static',
+    router: {
+      base: '/<projeto-integrador>/'
+    },
     title: 'stacy-store',
     htmlAttrs: {
       lang: 'en'
