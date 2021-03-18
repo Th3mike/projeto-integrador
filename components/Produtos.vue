@@ -16,7 +16,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
@@ -27,7 +27,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
@@ -38,7 +38,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
@@ -49,7 +49,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
@@ -60,7 +60,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
@@ -71,7 +71,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
@@ -82,7 +82,7 @@
       </div>
       <div>
         <img
-          src="../assets/img/produtos/produto-01.jpg"
+          src="../assets/produto-01.jpg"
           alt="PRODUTO"
           class="h-48"
         />
