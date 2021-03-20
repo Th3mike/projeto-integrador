@@ -1,101 +1,30 @@
 <template>
-  <div>
-    <h1 class="text-center py-8 font-extrabold text-5xl">Destaques</h1>
-    <div class="grid grid-cols-4 gap-6 py-8 justify-items-center">
-      <div>
-        <p class="desconto">-50%</p>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-      <div>
-        <img
-          src="../assets/produto-01.jpg"
-          alt="PRODUTO"
-          class="h-48"
-        />
-        <hr class="estilo-hr" />
-        <p>Produto 01</p>
-        <s class="text-gray-700 text-opacity-50">R$ 73.50</s>
-        <p class="text-gray-700">R$ 56.99</p>
-      </div>
-    </div>
-  </div>
+  <section class="mt-5">
+<ul class="grid grid-cols-4 grid-rows-2 gap-6">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+  </section>
 </template>
-<style>
-hr.estilo-hr {
+
+
+<style scoped>
+section{
+  padding: 0 100px;
+}
+
+li{
+background-color: #DECBB7 ;
+height: 260px;
+border-radius: 4px;
+}
+/* hr.estilo-hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(
@@ -110,5 +39,5 @@ hr.estilo-hr {
   bottom: 19.5rem;
   background-color: rgba(0, 0, 0, 0.719);
   color: white;
-}
+} */
 </style>
