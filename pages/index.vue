@@ -1,6 +1,6 @@
 <template>
   <div class="carrousel">
-    <h1>TEST TEST</h1>
+    <h1>TEST TEST teste</h1>
   </div>
 </template>
 
