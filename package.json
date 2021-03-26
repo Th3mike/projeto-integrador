@@ -9,9 +9,10 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "predeploy": "npm run build",
-    "deploy": "main -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12"
   },
