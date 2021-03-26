@@ -9,7 +9,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "main -d build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
