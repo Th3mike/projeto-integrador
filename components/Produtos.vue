@@ -1,43 +1,42 @@
 <template>
-  <section class="mt-5">
-<ul class="grid grid-cols-4 grid-rows-2 gap-6">
-  <li>teste</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+  <section class="mt-5 px-6">
+    <div class="container">
+      <ul class="flex justify-between flex-wrap">
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+        <li class="w-56 h-64 mb-5 rounded"></li>
+    </ul>
+  </div>
   </section>
 </template>
 
 
 <style scoped>
-section{
-  padding: 0 100px;
-}
 
-li{
+ul li{
 background-color: #DECBB7 ;
-height: 260px;
-border-radius: 4px;
 }
-/* hr.estilo-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
+/* --------- */
+
+
+@media only screen and (max-width: 699px) {
+  /* Configurações do  mobile*/
+ .container{
+   width: 100%;
+ }
+  ul li{
+  width: 150px;
+  height: 160px;
 }
-.desconto {
-  position: absolute;
-  bottom: 19.5rem;
-  background-color: rgba(0, 0, 0, 0.719);
-  color: white;
-} */
+  /* -------------Conteúdo---------------- */
+}
+/* -------------------------- */
+@media only screen and (min-width: 700px) {
+  /* Configurações do  desktop*/
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="carrousel">
-    <h1>TEST TEST teste</h1>
+  <div class="carrousel px-6">
+    <h1></h1>
   </div>
 </template>
 
@@ -23,9 +23,11 @@ export default {
 
 .carrousel{
   width: 100%;
-  height: 350px;
-  background: #DECBB7;
-
+  height: 400px;
+  background-image: url("../assets/banner.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 </style>

@@ -26,5 +26,28 @@ html {
   padding: 0;
   border-style: none !important;
 }
+.container{
+  width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* -------------------------------- */
+
+
+@media only screen and (max-width: 699px) {
+  /* Configurações do  mobile*/
+ .container{
+   width: 100%;
+ }
+
+  /* -------------Conteúdo---------------- */
+
+}
+/* -------------------------- */
+@media only screen and (min-width: 700px) {
+  /* Configurações do  desktop*/
+
+}
+
 
 </style>
