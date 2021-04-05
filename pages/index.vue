@@ -1,5 +1,5 @@
 <template>
-  <div class="carrousel px-6">
+   <div class="carrousel px-6">
     <h1></h1>
   </div>
 </template>
@@ -28,6 +28,3 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-</style>
