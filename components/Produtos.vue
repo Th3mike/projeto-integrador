@@ -2,14 +2,127 @@
   <section class="mt-5 px-6">
     <div class="container">
       <ul class="flex justify-between flex-wrap">
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
-        <li class="w-56 h-64 mb-5 rounded"></li>
+      
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgOne.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgTwo.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgThree.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgTen.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgFour.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgFive.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgSix.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+
+        <li class="w-56 h-64 mb-5 rounded">
+          <div class="w-full h-40">
+            <img src="../assets/imgSeven.png" class="rounded" alt="Produtos Stacy">
+          </div>
+
+          <section class="h-20 flex flex-row items-center justify-around mt-2">
+            <div class="flex flex-col text-color-card">
+              <h3 class="text-base">Lençol Casal</h3>
+              <span class="text-sm"><s>R$ 73,98</s></span>
+              <p>R$ 36,99</p>
+            </div>
+            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+          </section>
+        </li>
+      
     </ul>
   </div>
   </section>
@@ -31,7 +144,15 @@ background-color: #DECBB7 ;
  }
   ul li{
   width: 150px;
-  height: 160px;
+  height: 210px;
+}
+ul li div:nth-child(1)
+{
+  height: 100px;
+}
+ul li section{
+  flex-direction: column;
+  padding: 5px;
 }
   /* -------------Conteúdo---------------- */
 }

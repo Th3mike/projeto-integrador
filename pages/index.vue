@@ -2,6 +2,8 @@
 <main>
   
 <Banner class="banner"/>
+
+<h2 class="title w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">DESTAQUES</h2> 
 <Produtos />
   </main>
 </template>
@@ -24,5 +26,23 @@ export default {
 */
 .banner{
   background-image: url("../assets/banner.jpg") ;
+}
+
+.title::before{
+content: "";
+display: block;
+height: 1px;
+width: 35px;
+margin-left: 15px;
+background-color: #433633;
+}
+.title::after{
+position: absolute;
+content: "";
+display: block;
+height: 1px;
+width: 35px;
+right: 15px;
+background-color: #433633;
 }
 </style>

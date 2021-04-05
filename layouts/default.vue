@@ -30,6 +30,34 @@ html {
   margin: 0 auto;
   box-sizing: border-box;
 }
+img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.text-color-card{
+  color: #5C5552;
+}
+.text-color-title{
+  color: #433633;
+}
+.btn-buy{
+  width: 100px;
+  padding: 5px ;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+
+border-radius: 4px;
+color: #fff;
+background-color: #8F857D;
+}
 /* -------------------------------- */
 
 
