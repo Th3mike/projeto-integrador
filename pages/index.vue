@@ -1,7 +1,9 @@
 <template>
-   <div class="carrousel px-6">
-    <h1></h1>
-  </div>
+<main>
+  
+<Banner class="banner"/>
+<Produtos />
+  </main>
 </template>
 
 <script>
@@ -20,11 +22,7 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-
-.carrousel{
-  width: 100%;
-  height: 400px;
+.banner{
   background-image: url("../assets/banner.jpg") ;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+</style>
