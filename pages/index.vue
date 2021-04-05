@@ -33,7 +33,7 @@ content: "";
 display: block;
 height: 1px;
 width: 35px;
-margin-left: 15px;
+margin-left: 14px;
 background-color: #433633;
 }
 .title::after{
@@ -42,7 +42,7 @@ content: "";
 display: block;
 height: 1px;
 width: 35px;
-right: 15px;
+right: 14px;
 background-color: #433633;
 }
 </style>
