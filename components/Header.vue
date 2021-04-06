@@ -38,7 +38,7 @@
       <nav>
         <ul class="flex text-sm  uppercase tracking-wide">
            <li><nuxt-link to="" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li> 
-            <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li> 
+            <li><nuxt-link to="" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li> 
             <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li> 
             <li><nuxt-link to="" class="py-6 pl-4 text-lg lenguage">
               LENGUAGE
