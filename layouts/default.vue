@@ -44,6 +44,9 @@ img{
 .text-color-title{
   color: #433633;
 }
+.text-bg-marrom-100{
+background-color: #DECBB7;
+}
 .btn-buy{
   width: 100px;
   padding: 5px ;
