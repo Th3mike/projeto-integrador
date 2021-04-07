@@ -2,7 +2,7 @@
   <section class="mt-5 px-6">
     <div class="container">
       <ul class="flex justify-between flex-wrap">
-      
+
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
             <img src="../assets/imgOne.png" class="rounded" alt="Produtos Stacy">
@@ -122,7 +122,7 @@
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
-      
+
     </ul>
   </div>
   </section>

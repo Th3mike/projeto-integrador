@@ -1,8 +1,8 @@
 <template>
   <article class="newsletter flex h-screen m-auto items-center space-x-48">
     <div class="w-1/5 text-center ml-56">
-      <h1 class="text-lg">NEWSLETTER</h1>
-      <p class="text-sm">
+      <h1 class="text-5xl">NEWSLETTER</h1>
+      <p class="text-md">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
         laudantium dignissimos quae sunt doloremque. Explicabo, eius ullam
         quidem ratione est quia quaerat aspernatur ex suscipit corrupti ipsa

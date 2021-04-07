@@ -1,20 +1,36 @@
 <template>
-  <div id="app">
-    <h3>Contato:</h3>
+  <div id="app" class="text-center">
+    <p class="text-5xl">Contato</p>
     <form action="" v-on:submit.prevent="checkForm">
       <fieldset>
-        <input type="name" v-model="name" placeholder="Seu nome" />
+        <input
+          type="name"
+          v-model="name"
+          placeholder="Seu nome"
+          class="rounded-md"
+        />
 
-        <input type="email" v-model="email" placeholder="Seu e-mail" />
+        <input
+          type="email"
+          v-model="email"
+          placeholder="Seu e-mail"
+          class="rounded-md"
+        />
 
-        <input type="number" v-model="telefone" placeholder="Seu telefone" />
+        <input
+          type="number"
+          v-model="telefone"
+          placeholder="Seu telefone"
+          class="rounded-md"
+        />
         <textarea
           type="mensagem"
           v-model="mensagem"
           placeholder="Sua mensagem"
+          class="w-9/12 rounded-md"
         ></textarea>
 
-        <button>Enviar</button>
+        <button class="rounded-md">Enviar</button>
       </fieldset>
     </form>
     <ul>
@@ -66,36 +82,33 @@ export default {
 
 <style scoped>
 * {
-  text-align: center;
   display: inline-block;
 }
-h3 {
-  color: red;
+input,
+textarea {
+  width: 390px;
+  height: 40px;
+  margin-top: 15px;
+}
+textarea {
+  height: 100px;
 }
 li {
   list-style-type: none;
   display: inline-block;
   color: blue;
 }
-input {
-  width: 50%;
-  height: 25%;
-  margin-top: 15px;
-}
-textarea {
-  width: 70%;
-  height: 100px;
-  margin-top: 15px;
-}
 button {
-  width: 80%;
-  height: 50%;
+  width: 390px;
+  height: 60px;
   margin-top: 15px;
-  background-color: white;
+  background-color: #8f857d;
 }
-textarea:focus, input:focus, select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
 </style>
