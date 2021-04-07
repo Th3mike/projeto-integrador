@@ -15,9 +15,9 @@
 .box {
   width: 450px;
   height: 450px;
-  position: absolute;
-  top: 65%;
-  background-color: black;
+  position: relative;
+  top: -370px;
+  background-color:#DECBB7;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -32,6 +32,7 @@
     height: 400px;
     top: 80%;
     position: absolute;
-  }
+    
+      }
 }
 </style>
