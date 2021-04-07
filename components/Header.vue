@@ -4,7 +4,7 @@
   <header>
     <!-- Header versão mobile  -->
     <div class="mobile flex h-20 justify-end items-center">
-      <nuxt-link to="" class="logo">STACY</nuxt-link> 
+      <nuxt-link to="/" class="logo">STACY</nuxt-link>
 
       <div id="menu">
         <div id="menu-bar" @click="menuOnClick">
@@ -15,16 +15,16 @@
 
         <nav class="nav" id="nav">
           <ul>
-            <li><nuxt-link to="">PRODUTOS</nuxt-link> </li> 
-            <li><nuxt-link to="">DICAS</nuxt-link> </li> 
-            <li><nuxt-link to="">CONTATO</nuxt-link> </li> 
+            <li><nuxt-link to="/produtos">PRODUTOS</nuxt-link> </li>
+            <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
+            <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="lenguage">
               LENGUAGE
               <ul class="hidden">
                 <li>INGLES</li>
                 <li>ESPANHOL</li>
               </ul>
-              </nuxt-link> </li> 
+              </nuxt-link> </li>
           </ul>
         </nav>
       </div>
@@ -37,16 +37,16 @@
 
       <nav>
         <ul class="flex text-sm  uppercase tracking-wide">
-           <li><nuxt-link to="" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li> 
-            <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li> 
-            <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li> 
+           <li><nuxt-link to="" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li>
+            <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li>
+            <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="py-6 pl-4 text-lg lenguage">
               LENGUAGE
               <ul class="hidden">
                 <li>INGLES</li>
                 <li>ESPANHOL</li>
               </ul>
-              </nuxt-link> </li> 
+              </nuxt-link> </li>
         </ul>
       </nav>
     </div>
@@ -182,7 +182,7 @@
   padding: 10px;
 
   background-color: #DECBB7;
-  
+
 }
 .lenguage:hover ul li {
   font-size: 16px;
