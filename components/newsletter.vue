@@ -1,10 +1,39 @@
 <template>
-  <div class="teste"></div>
+  <article class="newsletter flex h-screen m-auto items-center space-x-48">
+    <div class="w-1/5 text-center ml-56">
+      <h1 class="text-lg">NEWSLETTER</h1>
+      <p class="text-sm">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+        laudantium dignissimos quae sunt doloremque. Explicabo, eius ullam
+        quidem ratione est quia quaerat aspernatur ex suscipit corrupti ipsa
+        esse laborum et?
+      </p>
+    </div>
+    <div>
+      <input type="email" placeholder="Seu e-mail" />
+      <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded ml-4">ENVIAR</button>
+    </div>
+  </article>
 </template>
 
 
 <style scoped>
-.teste {
+input {
+  width: 450px;
+  height: 50px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  outline: 0;
+}
+.newsletter {
   width: 100%;
   height: 300px;
   margin-top: 200px;
