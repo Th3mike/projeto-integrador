@@ -1,5 +1,8 @@
 <template>
   <div class="banner px-6">
+    <div class='fotobanner'>
+       <img src="../assets/bannerdicas.png" >
+    </div>
 
   </div>
 </template>
@@ -13,5 +16,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.fotobanner{
+  width: 469px;
+  height: 336px;
 }
 </style>
