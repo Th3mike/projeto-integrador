@@ -15,7 +15,7 @@
 
         <nav class="nav" id="nav">
           <ul>
-            <li><nuxt-link to="/produtos">PRODUTOS</nuxt-link> </li>
+            <li><nuxt-link to="/">PRODUTOS</nuxt-link> </li>
             <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="lenguage">
