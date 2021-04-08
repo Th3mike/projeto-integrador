@@ -33,9 +33,7 @@ textarea:focus,
 input:focus,
 select:focus {
   border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px;
-  outline: 0;
+  box-shadow: 5px 5px 5px 5px #867e77;
 }
 .newsletter {
   width: 100%;
