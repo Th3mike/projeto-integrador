@@ -18,7 +18,7 @@
             <li><nuxt-link to="/">PRODUTOS</nuxt-link> </li>
             <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
-            <li><nuxt-link to="" class="lenguage">
+            <li><nuxt-link to="" class="language">
               LANGUAGE
               <ul class="hidden">
                 <li>INGLES</li>
@@ -40,8 +40,8 @@
            <li><nuxt-link to="" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li>
             <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li>
-            <li><nuxt-link to="" class="py-6 pl-4 text-lg lenguage">
-              LENGUAGE
+            <li><nuxt-link to="" class="py-6 pl-4 text-lg language">
+              LANGUAGE
               <ul class="hidden">
                 <li>INGLES</li>
                 <li>ESPANHOL</li>
@@ -175,7 +175,7 @@
   transition: color linear 0.2s;
   color: #433633;
 }
-.lenguage:hover ul{
+.language:hover ul{
   display: block;
   position: absolute;
   width: 150px;
@@ -184,12 +184,12 @@
   background-color: #DECBB7;
 
 }
-.lenguage:hover ul li {
+.language:hover ul li {
   font-size: 16px;
   transition: all linear 0.2s;
 }
 
-.lenguage:hover ul li:hover {
+.language:hover ul li:hover {
   transition: all linear 0.2s;
  margin-left: 5px;
   color: #5C5552;
