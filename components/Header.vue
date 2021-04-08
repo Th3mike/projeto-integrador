@@ -19,7 +19,7 @@
             <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="lenguage">
-              LENGUAGE
+              LANGUAGE
               <ul class="hidden">
                 <li>INGLES</li>
                 <li>ESPANHOL</li>
