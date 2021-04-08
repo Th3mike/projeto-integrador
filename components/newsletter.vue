@@ -40,4 +40,20 @@ select:focus {
   position: relative;
   background-color:#DECBB7;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1096px) {
+  .newsletter {
+    width: 100%;
+    height: 450px;
+    margin-top: 200px;
+    background-color:#DECBB7;
+    display: flex;
+   flex-wrap: wrap;
+  }
+  .seu-email{
+    margin: 4px;
+    margin-left: 130px;
+  }
+}
 </style>

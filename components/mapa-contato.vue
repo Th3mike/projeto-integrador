@@ -18,13 +18,13 @@
   width: 100%;
   height: 300px;
   margin-top: 200px;
-  position: relative;
   background-color: #decbb7;
   display: flex;
   align-items: center;
+  
 }
 iframe {
-  width: 456px;
+  width: 450px;
   height: 246px;
   position: relative;
   margin-right: auto;
@@ -33,13 +33,14 @@ iframe {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1096px) {
   .mapa {
     width: 100%;
-    height: 150px;
-    margin-top: 400px;
-    position: relative;
+    height: 300px;
+    margin-top: 490px;
     background-color: #decbb7;
+    
   }
+  
 }
 </style>
