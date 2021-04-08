@@ -20,10 +20,16 @@
   margin-top: 200px;
   position: relative;
   background-color: #decbb7;
+  display: flex;
+  align-items: center;
 }
 iframe {
   width: 456px;
   height: 246px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  left: 300px;
 }
 
 /* Extra small devices (phones, 600px and down) */
