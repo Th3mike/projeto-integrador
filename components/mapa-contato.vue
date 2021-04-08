@@ -7,7 +7,7 @@
       style="border: 0"
       allowfullscreen=""
       loading="lazy"
-      class="float-right"
+      class="float-right borda"
     ></iframe>
   </div>
 </template>
@@ -21,7 +21,7 @@
   background-color: #decbb7;
   display: flex;
   align-items: center;
-  
+
 }
 iframe {
   width: 450px;
@@ -32,6 +32,11 @@ iframe {
   left: 300px;
 }
 
+.borda {
+  border: 1px solid;
+  box-shadow: 5px 5px 5px 5px #867e77;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1096px) {
   .mapa {
@@ -39,8 +44,8 @@ iframe {
     height: 300px;
     margin-top: 490px;
     background-color: #decbb7;
-    
+
   }
-  
+
 }
 </style>

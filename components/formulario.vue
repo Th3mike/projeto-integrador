@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="text-center">
-    <p class="text-5xl">Contato</p>
+  <div id="app" class="text-center borda">
+    <p class="text-4xl">Contato</p>
     <form action="" v-on:submit.prevent="checkForm">
       <fieldset>
         <input
@@ -83,6 +83,10 @@ export default {
 <style scoped>
 * {
   display: inline-block;
+}
+.borda {
+  border: 1px solid;
+  box-shadow: 5px 5px 5px 5px #867e77;
 }
 input,
 textarea {

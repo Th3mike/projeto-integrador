@@ -19,9 +19,9 @@
             <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="language">
-              LANGUAGE
+              IDIOMAS
               <ul class="hidden">
-                <li>INGLES</li>
+                <li>INGLÊS</li>
                 <li>ESPANHOL</li>
               </ul>
               </nuxt-link> </li>
@@ -41,9 +41,9 @@
             <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="py-6 pl-4 text-lg language">
-              LANGUAGE
+              IDIOMAS
               <ul class="hidden">
-                <li>INGLES</li>
+                <li>INGLÊS</li>
                 <li>ESPANHOL</li>
               </ul>
               </nuxt-link> </li>

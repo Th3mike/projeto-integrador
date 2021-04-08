@@ -10,7 +10,7 @@
       </p>
     </div>
     <div>
-      <input type="email" placeholder="Seu e-mail" />
+      <input type="email" placeholder="Seu e-mail" class="borda" />
       <button class="text-white font-bold py-2 px-4 rounded ml-4 cor-botao">ENVIAR</button>
     </div>
   </article>
@@ -21,9 +21,10 @@
 input {
   width: 450px;
   height: 50px;
+}
+.borda {
   border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px;
+  box-shadow: 5px 5px 5px 5px #867e77;
 }
 .cor-botao {
   background-color: #8F857D;
