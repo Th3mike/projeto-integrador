@@ -1,5 +1,13 @@
 <template>
-  <div class="banner px-6"></div>
+  <div class="banner px-6">
+    <div class="absolute w-1/4 contato">
+      <h1 class="text-5xl">CONTATO</h1>
+      <p>
+        Converse com a gente, sentiu falta de algum produto? Alguma dúvida ou
+        sugestão?
+      </p>
+    </div>
+  </div>
 </template>
 
 
@@ -10,5 +18,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.contato {
+  width: 190px;
+  height: 49px;
+  left: 70px;
+  top: 201px;
 }
 </style>

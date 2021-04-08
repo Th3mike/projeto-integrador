@@ -11,7 +11,7 @@
     </div>
     <div>
       <input type="email" placeholder="Seu e-mail" />
-      <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded ml-4">ENVIAR</button>
+      <button class="text-white font-bold py-2 px-4 rounded ml-4 cor-botao">ENVIAR</button>
     </div>
   </article>
 </template>
@@ -25,6 +25,9 @@ input {
   padding: 10px;
   box-shadow: 5px 10px;
 }
+.cor-botao {
+  background-color: #8F857D;
+}
 textarea:focus,
 input:focus,
 select:focus {
@@ -36,7 +39,7 @@ select:focus {
 .newsletter {
   width: 100%;
   height: 300px;
-  margin-top: 200px;
+  margin-top: 90px;
   position: relative;
   background-color:#DECBB7;
 }
