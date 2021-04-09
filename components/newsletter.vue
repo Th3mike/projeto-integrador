@@ -1,61 +1,52 @@
 <template>
-  <article class="newsletter flex h-screen m-auto items-center space-x-48">
-    <div class="w-1/5 text-center ml-56">
-      <h1 class="text-5xl">NEWSLETTER</h1>
-      <p class="text-md">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-        laudantium dignissimos quae sunt doloremque. Explicabo, eius ullam
-        quidem ratione est quia quaerat aspernatur ex suscipit corrupti ipsa
-        esse laborum et? test
-      </p>
-    </div>
-    <div>
-      <input type="email" placeholder="Seu e-mail" class="borda" />
-      <button class="text-white font-bold py-2 px-4 rounded ml-4 cor-botao">ENVIAR</button>
+  <article class="w-full h-40 flex items-center justify-center px-5 text-bg-marrom-100 mt-40">
+    <div class="container">
+      <section class="flex items-center justify-between">
+        <div>
+          <h3 class="text-3xl font-extrabold text-color-card">NEWSLETTER</h3>
+          <p class="text-color-card">Coloque aqui seu nome e email para receber todas as novidades e promoções em primeira mão.</p>
+        </div>
+
+          <div class="news flex items-center">
+            <input type="text" placeholder="E-mail">
+            <nuxt-link to="">Enviar</nuxt-link>
+          </div>
+      </section>
     </div>
   </article>
 </template>
 
 
 <style scoped>
-input {
-  width: 450px;
-  height: 50px;
-}
-.borda {
-  border: 1px solid;
-  box-shadow: 5px 5px 5px 5px #867e77;
-}
-.cor-botao {
-  background-color: #8F857D;
-}
-textarea:focus,
-input:focus,
-select:focus {
-  border: 1px solid;
-  box-shadow: 5px 5px 5px 5px #867e77;
-}
-.newsletter {
-  width: 100%;
-  height: 300px;
-  margin-top: 90px;
-  position: relative;
-  background-color:#DECBB7;
+.news{
+  width: 80%;
 }
 
+.news input{
+  width: 100%;
+  height: 40px;
+
+  padding: 5px 15px;
+  color: #5C5552;
+
+  border-radius: 4px;
+}
+
+.news a{
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+
+  color: #fff;
+  background-color: #8F857D;
+  border-radius: 4px;
+
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1096px) {
-  .newsletter {
-    width: 100%;
-    height: 450px;
-    margin-top: 200px;
-    background-color:#DECBB7;
-    display: flex;
-   flex-wrap: wrap;
-  }
-  .seu-email{
-    margin: 4px;
-    margin-left: 130px;
-  }
+ 
 }
 </style>

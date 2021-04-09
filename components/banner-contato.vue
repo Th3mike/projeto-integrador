@@ -1,20 +1,23 @@
 <template>
-  <div class="banner px-6">
-    <div class="absolute w-1/4 contato">
-      <h1 class="text-5xl">CONTATO</h1>
-      <p class="leading-9 text-xl">
-        Converse com a gente, sentiu falta de algum produto?
-        <br>
-        Alguma dúvida ou sugestão?
-        <br>
-        Fale conosco no formulário abaixo!
-      </p>
+  <article class="banner px-6 flex justify-center items-center">
+    <div class="container ">
+  
+      <section class="flex flex-col">
+        <TitleBanner />
+          <p class=""> Converse com a gente, sentiu falta de algum produto?Alguma dúvida ou sugestão? Fale conosco no formulário abaixo!</p>
+          <nuxt-link to="" class="w-1/3 flex items-center justify-center rounded text-bg-marrom-800 text-white mt-4 px-6 py-2">Conversar</nuxt-link>
+      </section>
+
     </div>
-  </div>
+  </article>
 </template>
 
 
 <style scoped>
+section{
+  width: 50%;
+}
+
 .banner {
   width: 100%;
   height: 400px;
@@ -22,10 +25,18 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.contato {
-  width: 450px;
-  height: 49px;
-  left: 70px;
-  top: 201px;
+.banner-contato {
+  background-image: url("../assets/bannerContato.png");
+}
+
+/* ----------------- */
+@media only screen and (max-width: 699px) {
+  /* Configurações do menus no mobile*/
+section{
+  width: 100%;
+}
+
+  /* -------------Conteúdo---------------- */
+
 }
 </style>

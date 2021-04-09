@@ -181,10 +181,11 @@
   width: 150px;
   padding: 10px;
 
-  background-color: #DECBB7;
+  background-color: #5C5552;
 
 }
 .language:hover ul li {
+  color: #f3f3f3;
   font-size: 16px;
   transition: all linear 0.2s;
 }
@@ -192,7 +193,7 @@
 .language:hover ul li:hover {
   transition: all linear 0.2s;
  margin-left: 5px;
-  color: #5C5552;
+  color: #fff;
 }
 /* ---------------------------------------------------- */
 

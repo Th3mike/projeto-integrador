@@ -23,13 +23,14 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border-style: none !important;
 }
+
 .container{
   width: 960px;
   margin: 0 auto;
   box-sizing: border-box;
 }
+
 img{
   display: block;
   width: 100%;
@@ -37,16 +38,21 @@ img{
   object-fit: cover;
 
 }
-
+/* Cores letras  */
 .text-color-card{
   color: #5C5552;
 }
 .text-color-title{
   color: #433633;
 }
+/* cores background  */
 .text-bg-marrom-100{
 background-color: #DECBB7;
 }
+.text-bg-marrom-800{
+  background-color: #8F857D;
+}
+/* Botão  */
 .btn-buy{
   width: 100px;
   padding: 5px ;

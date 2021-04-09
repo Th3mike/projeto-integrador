@@ -1,43 +1,45 @@
 <template>
-  <div id="app" class="text-center borda">
-    <p class="text-4xl">Contato</p>
-    <form action="" v-on:submit.prevent="checkForm">
-      <fieldset>
+  <article id="app" class="w-2/4 flex flex-col items-center justify-start text-bg-marrom-100 px-5 pt-6 rounded">
+   <h2 class="title w-40 text-center text-2xl font-thin mx-auto mb-5 relative text-color-title">CONTATO</h2>
+
+    <form action="" v-on:submit.prevent="checkForm" class="w-full">
+      <fieldset class="flex flex-col">
         <input
           type="name"
           v-model="name"
           placeholder="Seu nome"
-          class="rounded-md"
+          class=""
         />
 
         <input
           type="email"
           v-model="email"
           placeholder="Seu e-mail"
-          class="rounded-md"
+          class=""
         />
 
         <input
           type="number"
           v-model="telefone"
           placeholder="Seu telefone"
-          class="rounded-md"
+          class=""
         />
         <textarea
           type="mensagem"
           v-model="mensagem"
           placeholder="Sua mensagem"
-          class="w-9/12 rounded-md"
+          class="w-9/12 "
         ></textarea>
 
-        <button class="rounded-md">Enviar</button>
+        <button class="btn-form">Enviar</button>
       </fieldset>
     </form>
+
     <ul>
       <li v-for="error in errors" :key="error">{{ error }}</li>
       <li v-for="sucess in sucessfull" :key="sucess">{{ sucess }}</li>
     </ul>
-  </div>
+  </article>
 </template>
 
 <script>
@@ -81,38 +83,63 @@ export default {
 </script>
 
 <style scoped>
-* {
-  display: inline-block;
+
+article {
+  height: 400px;
+  border: 2px solid #f3f3f3;
 }
-.borda {
-  border: 1px solid;
-  box-shadow: 5px 5px 5px 5px #867e77;
+
+input, textarea{
+width: 100%;
+height: 40px;
+
+padding: 5px 15px;
+margin-bottom: 15px;
+resize: none;
+overflow: hidden;
+
+color: #433633;
+border-radius: 4px;
 }
-input,
-textarea {
-  width: 390px;
-  height: 40px;
-  margin-top: 15px;
+textarea{
+  padding: 10px 15px;
 }
-textarea {
-  height: 100px;
-}
-li {
-  list-style-type: none;
-  display: inline-block;
-  color: blue;
-}
-button {
-  width: 390px;
-  height: 60px;
-  margin-top: 15px;
-  background-color: #8f857d;
-}
+
 textarea:focus,
 input:focus,
 select:focus {
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
+}
+
+.btn-form{
+width: 100%;
+height: 50px;
+
+margin-bottom: 5px;
+
+background-color: #8F857D;
+color: #fff;
+border-radius: 4px;
+}
+
+/* --- */
+.title::before{
+content: "";
+display: block;
+height: 1px;
+width: 35px;
+margin-left: 14px;
+background-color: #433633;
+}
+.title::after{
+position: absolute;
+content: "";
+display: block;
+height: 1px;
+width: 35px;
+right: 14px;
+background-color: #433633;
 }
 </style>

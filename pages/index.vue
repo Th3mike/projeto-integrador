@@ -2,9 +2,7 @@
 <main>
   
 <Banner class="banner"/>
-
-<h2 class="title w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">DESTAQUES</h2> 
-
+<TitleBody /> 
 <Produtos />
 
 <h2 class="title w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">QUEM SOMOS</h2>
@@ -51,23 +49,6 @@ export default {
   background-image: url("../assets/banner.jpg") ;
 }
 
-.title::before{
-content: "";
-display: block;
-height: 1px;
-width: 35px;
-margin-left: 14px;
-background-color: #433633;
-}
-.title::after{
-position: absolute;
-content: "";
-display: block;
-height: 1px;
-width: 35px;
-right: 14px;
-background-color: #433633;
-}
 
 .imgQS{
   margin-top: -170px;
