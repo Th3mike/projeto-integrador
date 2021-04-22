@@ -1,10 +1,20 @@
 <template>
+<article class="banner px-6 flex justify-center items-center">
+ <div class="container ">
+      <section class="flex flex-col">
+        <TitleDicas/>
+          <p class=""> Aqui você vê os enxôvais que estão em alto no mercado, e deixa sua casa com cara nova!</p>
+          <nuxt-link to="" class="w-1/3 flex items-center justify-center rounded text-bg-marrom-800 text-white mt-4 px-6 py-2">Ver</nuxt-link>
+      </section>
+    </div>
+    <!--Imagem do banner-->
   <div class="flex justify-end banner px-6">
     <div class="fotobanner">
        <img src="../assets/bannerdicas.png">
     </div>
 
   </div>
+  </article>
 </template>
 
 
