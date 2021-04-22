@@ -1,7 +1,7 @@
 <template>
-  <div class="banner px-6">
-    <div class='fotobanner'>
-       <img src="../assets/bannerdicas.png" >
+  <div class="flex justify-end banner px-6">
+    <div class="fotobanner">
+       <img src="../assets/bannerdicas.png">
     </div>
 
   </div>
