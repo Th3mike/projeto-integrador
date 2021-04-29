@@ -1,6 +1,6 @@
 <template>
 <article class="banner px-6 flex justify-center items-center">
- <div class="container ">
+ <div class="container">
       <section class="flex flex-col">
         <TitleDicas/>
           <p class=""> Aqui você vê os enxôvais que estão em alto no mercado, e deixa sua casa com cara nova!</p>
@@ -8,7 +8,7 @@
       </section>
     </div>
     <!--Imagem do banner-->
-  <div class="flex justify-end banner px-6">
+  <div class="flex justify-center items-center banner px-6">
     <div class="fotobanner">
        <img src="../assets/bannerdicas.png">
     </div>
@@ -30,5 +30,19 @@
 .fotobanner{
   width: 469px;
   height: 336px;
+}
+
+@media only screen and (max-width: 896px) {
+  .fotobanner{
+    display: none;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.banner{
+  background-color: #DECBB7;
+}
 }
 </style>
