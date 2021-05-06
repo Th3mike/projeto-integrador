@@ -142,4 +142,11 @@ width: 35px;
 right: 14px;
 background-color: #433633;
 }
+
+
+@media only screen and (max-width: 699px) {
+article{
+  width: 100%;
+}
+}
 </style>

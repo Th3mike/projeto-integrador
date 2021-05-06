@@ -18,9 +18,14 @@
       <div class="content w-8/12 bg-white p-10 rounded mt-20 shadow-lg">
         <h3 class="mb-3 text-lg text-color-title">STACY</h3>
 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-
-        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+        <p>
+          Somos a Stacy, criada há três anos com o objetivo de trazer elegância e conforto para toda a sua casa, desde o surgimento uma das nossas maiores metas sempre foi levar até você, produtos de qualidade, durabilidade, com preço excelentes. 
+<br><br>
+          Temos por toda região de São Paulo, clientes fiéis e satisfeitos com nossos produtos, buscamos pensar
+          na experiência do usuário, para que realmente possamos cumprir nossos objetivos. 
+<br>         
+          Stacy é formada por um grupo de profissionais altamente qualificados com anos de experiência, em todos nossos setores optamos por ter uma cultura de trabalho em equipe pois, a união faz a força e força é uma qualidade e qualidade é Stacy!      
+         </p>
       </div>
       </section> 
   </div>

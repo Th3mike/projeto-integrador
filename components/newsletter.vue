@@ -46,7 +46,18 @@
 
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 1096px) {
- 
+@media only screen and (max-width: 699px) {
+  article{
+    margin-top: 16rem;
+    height: auto;
+    padding: 10px 20px ;
+  }
+  section{
+    flex-direction: column;
+    height: auto;
+  }
+  .news{
+  width: 100%;
+}
 }
 </style>

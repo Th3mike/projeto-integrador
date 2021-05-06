@@ -1,6 +1,6 @@
 <template>
 <main>
-  <Bannerdicas class=""/>
+  <Bannerdicas class="banner-dicas"/>
   <Cardsdicas/>
  
   </main>

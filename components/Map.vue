@@ -8,4 +8,11 @@
 iframe{
   width: 40%;
 }
+
+@media only screen and (max-width: 699px) {
+iframe{
+  width: 100%;
+  margin-top: 20px;
+}
+}
 </style>

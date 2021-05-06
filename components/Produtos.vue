@@ -142,9 +142,16 @@ background-color: #DECBB7 ;
  .container{
    width: 100%;
  }
+ ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+ }
+ 
   ul li{
-  width: 150px;
-  height: 210px;
+  width: auto;
+  height: auto;
+  min-height: 220px;
 }
 ul li div:nth-child(1)
 {

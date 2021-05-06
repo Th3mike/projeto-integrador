@@ -10,5 +10,9 @@
 </template>
 
 <style scoped>
-
+@media only screen and (max-width: 699px) {
+section{
+  flex-direction: column;
+}
+}
 </style>
