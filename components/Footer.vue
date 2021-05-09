@@ -47,7 +47,8 @@ footer{
     background-color: #DECBB7;
 }
 
-footer ul li h2{
+footer ul li h2, .logo{
+    font-weight: 400;
     color: #433633;
 }
 

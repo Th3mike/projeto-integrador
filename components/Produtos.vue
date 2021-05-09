@@ -153,11 +153,9 @@ background-color: #DECBB7 ;
   height: auto;
   min-height: 220px;
 }
-ul li div:nth-child(1)
-{
-  height: 100px;
-}
+
 ul li section{
+  height: auto;
   flex-direction: column;
   padding: 5px;
 }

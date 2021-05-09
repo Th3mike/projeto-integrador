@@ -1,7 +1,7 @@
 <template>
 <main>
   
-<Banner class="banner"/>
+<Carrousel />
 <TitleBody /> 
 <Produtos />
 
@@ -50,10 +50,23 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.banner{
-  background-image: url("../assets/banner.jpg") ;
-}
 
+.title::before{
+content: "";
+display: block;
+height: 1px;
+width: 35px;
+background-color: #433633;
+}
+.title::after{
+position: absolute;
+content: "";
+display: block;
+height: 1px;
+width: 35px;
+right: 0;
+background-color: #433633;
+}
 
 .imgQS{
   margin-top: -170px;

@@ -5,7 +5,7 @@
       <section class="flex flex-col">
         <TitleDicas />
           <p class="">Aqui você vê os enxôvais que estão em alto no mercado, e deixa sua casa com cara nova!</p>
-          <nuxt-link to="" class="w-1/3 flex items-center justify-center rounded text-bg-marrom-800 text-white mt-4 px-6 py-2">Ver</nuxt-link>
+          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">Ver</nuxt-link>
       </section>
 
     </div>
@@ -17,7 +17,9 @@
 section{
   width: 50%;
 }
-
+.btn-buy{
+  width: 33%;
+}
 .banner {
   width: 100%;
   height: 400px;

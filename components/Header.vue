@@ -173,11 +173,12 @@
 }
 .desktop nav ul li a:hover {
   transition: color linear 0.2s;
-  color: #433633;
+  color: #000;
 }
 .language:hover ul{
   display: block;
   position: absolute;
+  z-index: 999;
   width: 150px;
   padding: 10px;
 

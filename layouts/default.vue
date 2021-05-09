@@ -54,18 +54,43 @@ background-color: #DECBB7;
 }
 /* Botão  */
 .btn-buy{
-  width: 100px;
-  padding: 5px ;
+width: 100px;
+height: 37px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+overflow: hidden;
 
-  font-size: 14px;
+font-size: 14px;
 
 border-radius: 4px;
 color: #fff;
 background-color: #8F857D;
+}
+
+.btn-buy::after{
+content: "";
+display: none;
+position: absolute;
+
+width: 20%;
+height: 40px;
+
+background-color: #fff5;
+animation: btnEfect infinite 1s;
+}
+.btn-buy:hover::after {
+  display: block;
+}
+@keyframes btnEfect {
+  from{
+    margin-left: -100%;
+  }
+  to{
+  margin-left: 200%;
+  }
 }
 /* -------------------------------- */
 
@@ -75,9 +100,10 @@ background-color: #8F857D;
  .container{
    width: 100%;
  }
-
+.btn-buy{
+  overflow: visible;
+}
   /* -------------Conteúdo---------------- */
-
 }
 /* -------------------------- */
 @media only screen and (min-width: 700px) {
