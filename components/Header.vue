@@ -15,7 +15,7 @@
 
         <nav class="nav" id="nav">
           <ul>
-            <li><nuxt-link to="/">PRODUTOS</nuxt-link> </li>
+            <li><nuxt-link to="/produtos">PRODUTOS</nuxt-link> </li>
             <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="language">
@@ -37,7 +37,7 @@
 
       <nav>
         <ul class="flex text-sm  uppercase tracking-wide">
-           <li><nuxt-link to="" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li>
+           <li><nuxt-link to="/produtos" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li>
             <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="py-6 pl-4 text-lg language">

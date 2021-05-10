@@ -122,7 +122,6 @@
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
-
     </ul>
   </div>
   </section>
