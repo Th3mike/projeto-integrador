@@ -4,8 +4,8 @@
   
       <section class="flex flex-col">
         <Titleprodutos />
-          <p class="">Aqui você vê os enxôvais que estão em alto no mercado, e deixa sua casa com cara nova!</p>
-          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">Ver</nuxt-link>
+          <p class="">Confira os nossos produtos, e faça o orçamento daquele que é a sua cara!</p>
+          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">Conferir</nuxt-link>
       </section>
 
     </div>
