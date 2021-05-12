@@ -1,6 +1,6 @@
 <template>
-  <article class="cor px-6 flex justify-center items-center">
-    <div class="container ">
+  <article class="cor px-48 flex justify-around items-center">
+    <div class="container">
   
       <section class="flex flex-col">
         <Titleprodutos />
@@ -23,27 +23,20 @@ section{
 .btn-buy{
   width: 33%;
 }
-.banner {
-  width: 100%;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .cor {
   background-image: url("../assets/corprodutos.png");
   height: 400px;
 }
-.img-produtos{
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 /* ----------------- */
 @media only screen and (max-width: 699px) {
   /* Configurações do menus no mobile*/
 section{
   width: 100%;
+}
+.cor{
+  padding: 5px;
 }
 .img-produtos{
   display: none;

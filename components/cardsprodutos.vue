@@ -136,121 +136,121 @@
 <div class="container">
       <ul class="flex justify-between flex-wrap">
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgOne.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro1.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
+              <h3 class="text-base">Kit tapetes</h3>
+              <span class="text-sm"><s>R$ 50,99</s></span>
               <p>R$ 36,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgTwo.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro2.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Tapete Prime</h3>
+              <span class="text-sm"><s>R$ 63,00</s></span>
+              <p>R$ 39,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgThree.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro3.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalhas Coloridas</h3>
+              <span class="text-sm"><s>R$ 30,99</s></span>
+              <p>R$ 19,99,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgTen.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro4.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalha Branca</h3>
+              <span class="text-sm"><s>R$ 28,90</s></span>
+              <p>R$ 22,00</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgFour.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro5.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Tapedes Alvuso</h3>
+              <span class="text-sm"><s>R$ 50,00</s></span>
+              <p>R$ 32,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgFive.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro6.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
+              <h3 class="text-base">Kit 3 toalhas </h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <p>R$ 56,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgSix.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro7.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalhas Branca de 1,30m</h3>
+              <span class="text-sm"><s>R$ 59,98</s></span>
+              <p>R$ 39,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded">
+        <li class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
-            <img src="../assets/imgSeven.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Banheiro/banheiro8.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalha de Rosto</h3>
+              <span class="text-sm"><s>R$ 34,98</s></span>
+              <p>R$ 14,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
@@ -267,14 +267,14 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgOne.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha1.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalha de mesa Azul turquesa</h3>
+              <span class="text-sm"><s>R$ 49,98</s></span>
+              <p>R$ 34,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
@@ -282,14 +282,14 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgTwo.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha2.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalha de Mesa Simples</h3>
+              <span class="text-sm"><s>R$ 34,98</s></span>
+              <p>R$ 19,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
@@ -297,14 +297,14 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgThree.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha3.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Cortina para Cozinha</h3>
+              <span class="text-sm"><s>R$ 104,98</s></span>
+              <p>R$ 89,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
@@ -312,14 +312,14 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgTen.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha4.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">Toalha de Mesa PREMIUM</h3>
+              <span class="text-sm"><s>R$ 114,99</s></span>
+              <p>R$ 99,99</p>
             </div>
             <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
           </section>
