@@ -21,7 +21,7 @@ section{
   width: 50%;
 }
 .btn-buy{
-  width: 33%;
+  width: 158px;
 }
 .cor {
   background-image: url("../assets/corprodutos.png");
@@ -36,7 +36,7 @@ section{
   width: 100%;
 }
 .cor{
-  padding: 5px;
+  padding: 1.5rem;
 }
 .img-produtos{
   display: none;
