@@ -13,8 +13,12 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
+    "config": "^3.3.6",
     "core-js": "^3.8.3",
     "nuxt": "^2.15.4",
+    "stylus": "^0.54.8",
+    "stylus-loader": "3",
+    "vt-notifications": "^0.4.1",
     "vue-simple-alert": "^1.1.1",
     "yarn": "^1.22.10"
   },
