@@ -15,7 +15,7 @@
     "@nuxt/content": "^1.14.0",
     "config": "^3.3.6",
     "core-js": "^3.8.3",
-    "nuxt": "^2.15.4",
+    "nuxt": "^2.15.6",
     "stylus": "^0.54.8",
     "stylus-loader": "3",
     "vt-notifications": "^0.4.1",
