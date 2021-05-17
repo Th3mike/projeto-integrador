@@ -1,7 +1,7 @@
 <template>
   <article class="banner px-6 flex justify-center items-center">
     <div class="container ">
-
+  
       <section class="flex flex-col">
         <TitleDicas />
           <p class="">Aqui você vê os enxôvais que estão em alto no mercado, e deixa sua casa com cara nova!</p>
@@ -27,6 +27,10 @@ section{
   background-position: center;
   background-repeat: no-repeat;
 }
+.banner-dicas {
+  background-image: url("../assets/bannerDicas.png");
+}
+
 /* ----------------- */
 @media only screen and (max-width: 699px) {
   /* Configurações do menus no mobile*/
