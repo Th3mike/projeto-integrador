@@ -14,7 +14,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -29,7 +29,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -44,7 +44,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -59,7 +59,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -74,7 +74,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -89,7 +89,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -104,7 +104,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
 
@@ -119,7 +119,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <nuxt-link class="btn-buy" to="">COMPRAR</nuxt-link>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
           </section>
         </li>
     </ul>
