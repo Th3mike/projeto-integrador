@@ -15,14 +15,14 @@
 
         <nav class="nav" id="nav">
           <ul>
-            <li><nuxt-link to="/produtos">PRODUTOS</nuxt-link> </li>
+            <li><nuxt-link to="/produtos">{{ $t('products') }}</nuxt-link> </li>
             <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="language">
               IDIOMAS
               <ul class="hidden">
-                <li>INGLÊS</li>
-                <li>ESPANHOL</li>
+                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">Inglês</li>
+                <li key="flag-br" v-else @click="setLocale('pt')">Português</li>
               </ul>
               </nuxt-link> </li>
           </ul>
@@ -37,14 +37,14 @@
 
       <nav>
         <ul class="flex text-sm  uppercase tracking-wide">
-           <li><nuxt-link to="/produtos" class="py-6 pl-4 text-lg">PRODUTOS</nuxt-link> </li>
+           <li><nuxt-link to="/produtos" class="py-6 pl-4 text-lg">{{ $t('products') }}</nuxt-link> </li>
             <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li>
             <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li>
             <li><nuxt-link to="" class="py-6 pl-4 text-lg language">
               IDIOMAS
               <ul class="hidden">
-                <li>INGLÊS</li>
-                <li>ESPANHOL</li>
+                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">Inglês</li>
+                <li key="flag-br" v-else @click="setLocale('pt')">Português</li>
               </ul>
               </nuxt-link> </li>
         </ul>
@@ -229,11 +229,16 @@
 <script>
 export default {
 methods: {
+  setLocale(code) {
+      this.$i18n.setLocale(code)
+    },
+
  menuOnClick: function () {
   document.getElementById("menu-bar").classList.toggle("change");
   document.getElementById("nav").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
 }
+   
 }
 </script>

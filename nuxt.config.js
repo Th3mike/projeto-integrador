@@ -7,7 +7,7 @@ export default {
   head: {
     title: 'stacy-store',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },
@@ -38,8 +38,55 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // https://i18n.nuxtjs.org/
+    'nuxt-i18n'
   ],
-
+  i18n: {
+    lazy: true,
+    detectBrowserLanguage: {
+      cookieKey: 'i18n-locale',
+    },
+    strategy: 'no_prefix',
+    defaultLocale: 'pt',
+    langDir: 'lang',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US',
+        name: 'English',
+        file: 'en.js'
+      },
+      {
+        code: 'pt',
+        iso: 'pt-BR',
+        name: 'Português',
+        file: 'pt.js'
+      }
+    ],
+  },
+  // i18n: {
+  //   lazy: true,
+  //   detectBrowserLanguage: {
+  //     cookieKey: 'i18n-locale',
+  //   },
+  //   strategy: 'no_prefix',
+  //   defaultLocale: 'en',
+  //   langDir: 'lang',
+  //   locales: [
+  //     {
+  //       code: 'en',
+  //       iso: 'en-US',
+  //       name: 'English',
+  //       file: 'en.js'
+  //     },
+  //     {
+  //       code: 'pt',
+  //       iso: 'pt-BR',
+  //       name: 'Português',
+  //       file: 'pt.js'
+  //     }
+  //   ]
+  // },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
