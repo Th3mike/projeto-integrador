@@ -6,7 +6,7 @@
     <h2
       class="title w-40 text-center text-2xl font-thin mx-auto mb-5 relative text-color-title"
     >
-      CONTATO
+      {{ $t('contact') }}
     </h2>
 
     <form action="" v-on:submit.prevent="checkForm" class="w-full">

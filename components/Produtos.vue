@@ -10,11 +10,11 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Kit Casal</h3>
+              <h3 class="text-base">{{ $t('coupleKit') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -25,11 +25,11 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Casal Luxo</h3>
+              <h3 class="text-base">{{ $t('luxuryCouple') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -40,11 +40,11 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Casal</h3>
+              <h3 class="text-base">{{ $t('doubleSheet') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -59,7 +59,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -74,7 +74,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -89,7 +89,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -104,7 +104,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -119,7 +119,7 @@
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">COMPRAR</a>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
     </ul>

@@ -1,6 +1,6 @@
 <template>
   <h2 class="title w-40 text-3xl mb-4 font-thin relative text-color-title">
-    Produtos
+    {{ $t('products') }}
   </h2>
 </template>
 

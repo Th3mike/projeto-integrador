@@ -1,3 +1,20 @@
 export default {
-  products: 'Products' 
+  products: 'Products',
+  tips: 'Tips',
+  contact: 'Contact',
+  languages: 'Languages',
+  english: 'English',
+  portuguese: 'Portuguese',
+  discoverProducts: 'Discover our products',
+  deliverElegance: 'We deliver you comfort and elegance!',
+  affordablePrices: 'We offer affordable prices',
+  payment: 'There are very practical means of payment!',
+  newLook: 'Give your home a new look',
+  qualityProducts: 'Quality products with diversity!',
+  highlights: 'Highlights',
+  coupleKit: 'Couple Kit',
+  PURCHASE: 'PURCHASE',
+  luxuryCouple: 'Luxury Couple',
+  doubleSheet: 'Double sheet',
+
 }

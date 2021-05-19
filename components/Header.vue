@@ -16,13 +16,13 @@
         <nav class="nav" id="nav">
           <ul>
             <li><nuxt-link to="/produtos">{{ $t('products') }}</nuxt-link> </li>
-            <li><nuxt-link to="/dicas">DICAS</nuxt-link> </li>
-            <li><nuxt-link to="/contato">CONTATO</nuxt-link> </li>
+            <li><nuxt-link to="/dicas">{{ $t('tips') }}</nuxt-link> </li>
+            <li><nuxt-link to="/contato">{{ $t('contact') }}</nuxt-link> </li>
             <li><nuxt-link to="" class="language">
-              IDIOMAS
+              {{ $t('languages') }}
               <ul class="hidden">
-                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">Inglês</li>
-                <li key="flag-br" v-else @click="setLocale('pt')">Português</li>
+                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">{{ $t('english') }}</li>
+                <li key="flag-br" v-else @click="setLocale('pt')">{{ $t('portuguese') }}</li>
               </ul>
               </nuxt-link> </li>
           </ul>
@@ -38,13 +38,13 @@
       <nav>
         <ul class="flex text-sm  uppercase tracking-wide">
            <li><nuxt-link to="/produtos" class="py-6 pl-4 text-lg">{{ $t('products') }}</nuxt-link> </li>
-            <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">DICAS</nuxt-link> </li>
-            <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">CONTATO</nuxt-link> </li>
+            <li><nuxt-link to="/dicas" class="py-6 pl-4 text-lg">{{ $t('tips') }}</nuxt-link> </li>
+            <li><nuxt-link to="/contato" class="py-6 pl-4 text-lg">{{ $t('contact') }}</nuxt-link> </li>
             <li><nuxt-link to="" class="py-6 pl-4 text-lg language">
-              IDIOMAS
+              {{ $t('languages') }}
               <ul class="hidden">
-                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">Inglês</li>
-                <li key="flag-br" v-else @click="setLocale('pt')">Português</li>
+                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">{{ $t('english') }}</li>
+                <li key="flag-br" v-else @click="setLocale('pt')">{{ $t('portuguese') }}</li>
               </ul>
               </nuxt-link> </li>
         </ul>

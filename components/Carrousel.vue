@@ -5,8 +5,8 @@
 		<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
 		<div class="carousel-item absolute opacity-0" style="height:64vh;">
 			<div class="carroselImgOne h-full w-full flex items-center justify-center flex-col text-white">
-        <h4 class="text-4xl">Conheça nossos produtos</h4>
-        <p class="font-thin">Entregamos a você conforto e elegância!</p>
+        <h4 class="text-4xl">{{ $t('discoverProducts') }}</h4>
+        <p class="font-thin">{{ $t('deliverElegance') }}</p>
       </div>
 		</div>
 		<label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:text-yellow-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -16,8 +16,8 @@
 		<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
 		<div class="carousel-item absolute opacity-0" style="height:64vh;">
 			<div class="carroselImgTwo h-full w-full flex items-center justify-center flex-col text-white">
-        <h4 class="text-4xl">Oferemos preços acessíveis</h4>
-        <p class="font-thin">Há meios de pagamentos muito práticos!</p>
+        <h4 class="text-4xl">{{ $t('affordablePrices') }}</h4>
+        <p class="font-thin">{{ $t('payment') }}</p>
       </div>
 		</div>
 		<label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:text-yellow-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -27,8 +27,8 @@
 		<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
 		<div class="carousel-item absolute opacity-0" style="height:64vh;">
 			<div class="carroselImgThree h-full w-full flex items-center justify-center flex-col text-white">
-        <h4 class="text-4xl">Deixe sua casa de cara nova</h4>
-        <p class="font-thin">Produtos de qualidade com diversidade!</p>
+        <h4 class="text-4xl">{{ $t('newLook') }}</h4>
+        <p class="font-thin">{{ $t('qualityProducts') }}</p>
       </div>
 		</div>
 		<label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:text-yellow-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
