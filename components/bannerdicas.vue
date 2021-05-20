@@ -10,6 +10,7 @@
 
     </div>
   </article>
+  
 </template>
 
 
@@ -26,6 +27,9 @@ section{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.banner-dicas {
+  background-image: url("../assets/bannerDicas.png");
 }
 /* ----------------- */
 @media only screen and (max-width: 699px) {

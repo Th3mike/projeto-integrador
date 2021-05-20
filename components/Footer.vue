@@ -9,30 +9,30 @@
         </li>
 
         <li class="flex flex-col">
-            <h2 class="text-lg">MAPA DO SITE</h2>
-            <nuxt-link to="">PRODUTOS</nuxt-link>
-            <nuxt-link to="">DICAS</nuxt-link>
-            <nuxt-link to="">CONTATO</nuxt-link>
+            <h2 class="text-lg">{{ $t('siteMap') }}</h2>
+            <nuxt-link to="" class="uppercase">{{ $t('product') }}</nuxt-link>
+            <nuxt-link to="" class="uppercase">{{ $t('tips') }}</nuxt-link>
+            <nuxt-link to="" class="uppercase">{{ $t('contact') }}</nuxt-link>
         </li>
 
         <li class="flex flex-col">
-            <h2 class="text-lg">REDES SOCIAIS</h2>
-            <nuxt-link to="">FACEBOOK</nuxt-link>
-            <nuxt-link to="">INSTAGRAM</nuxt-link>
-            <nuxt-link to="">TWITTER</nuxt-link>
+            <h2 class="text-lg">{{ $t('socialNetworks') }}</h2>
+            <nuxt-link to="" class="uppercase">FACEBOOK</nuxt-link>
+            <nuxt-link to="" class="uppercase">INSTAGRAM</nuxt-link>
+            <nuxt-link to="" class="uppercase">TWITTER</nuxt-link>
         </li>
 
         <li class="flex flex-col">
-            <h2 class="text-lg">FORMAS DE PAGAMENTO</h2>
-            <nuxt-link to="">BOLETO</nuxt-link>
-            <nuxt-link to="">CARTÃO DE CRÉDITO</nuxt-link>
+            <h2 class="text-lg">{{ $t('paymentMethods') }}</h2>
+            <nuxt-link to="" class="uppercase">{{ $t('bankSlip') }}</nuxt-link>
+            <nuxt-link to="" class="uppercase">{{ $t('creditCard') }}</nuxt-link>
         </li>
     </ul>
 </div>
 </footer>
 
 <div class="after-footer flex items-center justify-center">
-    <p class="text-base"><span class="text-lg">STACY STORE</span> - Todos os direitos reservados!</p>
+    <p class="text-base"><span class="text-lg">STACY STORE</span> - {{ $t('rightsReserved!') }}</p>
 </div>
 
 </main>

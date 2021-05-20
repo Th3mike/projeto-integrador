@@ -5,7 +5,7 @@
 <TitleBody /> 
 <Produtos />
 
-<h2 class="title w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">QUEM SOMOS</h2>
+<h2 class="title w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('whoweare') }}</h2>
 
 <article class="QS w-full h-56 px-5 text-bg-marrom-100 mt-5">
   <div class="container">
@@ -19,12 +19,11 @@
         <h3 class="mb-3 text-lg text-color-title">STACY</h3>
 
         <p>
-          Somos a Stacy, criada há três anos com o objetivo de trazer elegância e conforto para toda a sua casa, desde o surgimento uma das nossas maiores metas sempre foi levar até você, produtos de qualidade, durabilidade, com preço excelentes. 
+          {{ $t('textptOneHome') }} 
 <br><br>
-          Temos por toda região de São Paulo, clientes fiéis e satisfeitos com nossos produtos, buscamos pensar
-          na experiência do usuário, para que realmente possamos cumprir nossos objetivos. 
+           {{ $t('textptTwoHome') }}
 <br>         
-          Stacy é formada por um grupo de profissionais altamente qualificados com anos de experiência, em todos nossos setores optamos por ter uma cultura de trabalho em equipe pois, a união faz a força e força é uma qualidade e qualidade é Stacy!      
+          {{ $t('textptThreeHome') }}     
          </p>
       </div>
       </section> 
