@@ -34,7 +34,19 @@ export default {
   bankSlip:'Bank slip',
   creditCard: 'CREDIT CARD',
   rightsReserved: 'All rights reserved!',
-  
+  /* Pag Produtos */
+  textproducts: 'Check out our products, and make the budget of the one that is your face!',
+  check:'Check',
+  room:'Room',
+  cushions: 'Cushions',
+  tissuesg: 'Tissue SG',
+  executive: 'Executive',
+  duvet: 'Duvet',
+  blanket: 'Blanket',
+  restroom: 'Restroom',
+  kitmats: 'Kit Mats',
+  primecarpet:' Prime Carpet',
+
 
 
 

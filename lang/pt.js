@@ -33,5 +33,18 @@ export default {
   paymentMethods: 'FORMAS DE PAGAMENTO',
   bankSlip: 'BOLETO',
   creditCard: 'CARTÃO DE CRÉDITO',
-  rightsReserved: 'Todos os direitos reservados!'
+  rightsReserved: 'Todos os direitos reservados!',
+  /* Pag Produtos */
+  textproducts: 'Confira os nossos produtos, e faça o orçamento daquele que é a sua cara!',
+  check: 'Conferir',
+  room: 'Quarto',
+  cushions: 'Almofadas',
+  tissuesg: 'Lençol Sg',
+  executive: 'Executivo',
+  duvet: 'Edredom',
+  blanket:'Cobertor',
+  restroom: 'Banheiro',
+  kitmats: 'Kit Tapetes',
+  primecarpet:'Tapete Prime',
+
 }

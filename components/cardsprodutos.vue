@@ -2,7 +2,7 @@
   <section class="mt-5 px-6">
       <!--Cards Quarto--> 
  <div class="titulos">
-     <h2 class="title tq w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">Quarto</h2>
+     <h2 class="title tq w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('room') }}</h2>
      </div>
     <div class="container flex flex-wrap">
       <ul class="flex justify-between flex-wrap">
@@ -14,7 +14,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Jogo Luxo</h3>
+              <h3 class="text-base">{{ $t('luxuryGame') }}</h3>
               <span class="text-sm"><s>R$ 179,98</s></span>
               <p>R$ 136,99</p>
             </div>
@@ -29,7 +29,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Kit casal</h3>
+              <h3 class="text-base">{{ $t('coupleKit') }}</h3>
               <span class="text-sm"><s>R$ 123,98</s></span>
               <p>R$ 86,99</p>
             </div>
@@ -44,7 +44,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Almofadas</h3>
+              <h3 class="text-base">{{ $t('cushions') }}</h3>
               <span class="text-sm"><s>R$ 55,98 un</s></span>
               <p>R$ 36,99 un</p>
             </div>
@@ -59,7 +59,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Lençol Sg</h3>
+              <h3 class="text-base">{{ $t('tissuesg') }}</h3>
               <span class="text-sm"><s>R$ 43,99</s></span>
               <p>R$ 26,99</p>
             </div>
@@ -89,7 +89,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Executivo</h3>
+              <h3 class="text-base">{{ $t('executive') }}</h3>
               <span class="text-sm"><s>R$ 140,98</s></span>
               <p>R$ 109,99</p>
             </div>
@@ -104,7 +104,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Edredom</h3>
+              <h3 class="text-base">{{ $t('duvet') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
@@ -119,7 +119,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Cobertor</h3>
+              <h3 class="text-base">{{ $t('blanket') }}</h3>
               <span class="text-sm"><s>R$ 73,98 un</s></span>
               <p>R$ 36,99 un</p>
             </div>
@@ -131,7 +131,7 @@
   </div>
 <!--Cards Banheiro-->
    <div class="titulos">
-       <h2 class="title tb w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">Banheiro</h2>
+       <h2 class="title tb w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('restroom') }}</h2>
    </div>
 <div class="container">
       <ul class="flex justify-between flex-wrap">
@@ -143,7 +143,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Kit tapetes</h3>
+              <h3 class="text-base">{{ $t('kitmats') }}</h3>
               <span class="text-sm"><s>R$ 50,99</s></span>
               <p>R$ 36,99</p>
             </div>
@@ -158,7 +158,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">Tapete Prime</h3>
+              <h3 class="text-base">{{ $t('primecarpet') }}</h3>
               <span class="text-sm"><s>R$ 63,00</s></span>
               <p>R$ 39,99</p>
             </div>

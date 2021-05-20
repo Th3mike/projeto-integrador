@@ -4,8 +4,8 @@
   
       <section class="flex flex-col">
         <Titleprodutos />
-          <p class="">Confira os nossos produtos, e faça o orçamento daquele que é a sua cara!</p>
-          <a class="btn-buy mt-4 px-6 py-2" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">Conferir</a>
+          <p class="">{{ $t('textproducts') }}</p> 
+          <a class="btn-buy mt-4 px-6 py-2" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('check') }}</a>
       </section>
 
     </div>
