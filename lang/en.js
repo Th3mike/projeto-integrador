@@ -46,6 +46,17 @@ export default {
   restroom: 'Restroom',
   kitmats: 'Kit Mats',
   primecarpet:' Prime Carpet',
+  towels: 'Towels',
+  wtTowels:'Wt Towels',
+  carpets: 'Carpets',
+  Kit3Towels: 'Kit 3 Towels',
+  faceTowel: 'Face Towel',
+  Kitchen:'Kitchen',
+  tableTowel: 'Table towel',
+  Curtain: 'Curtain',
+  LuxuryTowels: 'Luxury Towels',
+  tissue: 'Tissue'
+
 
 
 

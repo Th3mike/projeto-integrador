@@ -46,5 +46,14 @@ export default {
   restroom: 'Banheiro',
   kitmats: 'Kit Tapetes',
   primecarpet:'Tapete Prime',
-
+  towels:'Toalhas',
+  wtTowels: 'Toalhas Wt',
+  carpets: 'Tapetes',
+  Kit3Towels:'Kit 3 Toalhas',
+  faceTowel: 'faceTowel',
+  Kitchen: 'Cozinha',
+  tableTowel: 'Toalha mesa',
+  Curtain:'Cortina',
+  LuxuryTowels: 'Toalha Luxo',
+  tissue: 'Lençol',
 }
