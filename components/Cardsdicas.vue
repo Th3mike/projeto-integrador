@@ -4,7 +4,7 @@
     <!--Card 1-->
     <div class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">Quarto</div>
+      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('room') }}</div>
       <div class="px-6 py-4">
         <div class="card1">
             <img src="../assets/card1.jpg">
@@ -14,7 +14,7 @@
      <!--Card 2-->
     <div class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">Cozinha</div>
+      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('Kitchen') }}</div>
       <div class="px-6 py-4">
           <div class="card1">
             <img src="../assets/Cozinha.jpg">
@@ -25,7 +25,7 @@
      <!--Card 3-->
     <div class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">Banheiro</div>
+      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('restroom') }}</div>
       <div class="px-6 py-4">
           <div class="banheiro">
             <img src="../assets/Banheiro.jpg">
@@ -35,7 +35,7 @@
      <!--Card 4-->
     <div class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">Sala</div>
+      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('livingRoom') }}</div>
       <div class="px-6 py-4">
           <div class="sala">
             <img src="../assets/Sala.jpg">

@@ -11,24 +11,24 @@
 
     <form action="" v-on:submit.prevent="checkForm" class="w-full">
       <fieldset class="flex flex-col">
-        <input type="name" v-model="name" placeholder="Seu nome" />
+        <input type="name" v-model="name" :placeholder="$t('yourName')" />
 
-        <input type="email" v-model="email" placeholder="Seu e-mail" />
+        <input type="email" v-model="email" :placeholder="$t('yourGmail')" />
 
         <input
           type="number"
           v-model="telefone"
-          placeholder="Seu telefone"
+         :placeholder="$t('yourCellphone')"
           class=""
         />
         <textarea
           type="mensagem"
           v-model="mensagem"
-          placeholder="Sua mensagem"
+         :placeholder="$t('yourMessage')"
           class="w-9/12"
         ></textarea>
 
-        <button class="btn-form">Enviar</button>
+        <button class="btn-form">{{ $t('submit') }}</button>
       </fieldset>
     </form>
     <!--- Error --->

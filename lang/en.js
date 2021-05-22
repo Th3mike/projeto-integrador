@@ -55,8 +55,18 @@ export default {
   tableTowel: 'Table towel',
   Curtain: 'Curtain',
   LuxuryTowels: 'Luxury Towels',
-  tissue: 'Tissue'
-
+  tissue: 'Tissue',
+  textTips: 'Here you see the trousseaux that are high on the market, and leave your home with a new look!',
+  View: 'View',
+  livingRoom: 'Living room',
+  textContact: 'Talk to us, did you miss any product? Any questions or suggestions? Contact us in the form below!',
+  toTalk: 'To Talk',
+  yourName: 'Your name',
+  yourGmail: 'Your g-mail',
+  yourCellphone: 'Your cellphone',
+  yourMessage: 'Your message',
+  submit: 'Submit',
+  textNewsletter: 'Put your name and e-mail here to receive all the news and promotions first hand.',
 
 
 

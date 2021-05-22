@@ -1,5 +1,5 @@
 <template>
-  <h2 class="title w-40 text-3xl mb-4 font-thin relative text-color-title">CONTATO</h2> 
+  <h2 class="title w-40 text-3xl mb-4 font-thin relative text-color-title">{{ $t('contact') }}</h2> 
 </template>
 
 <style scoped>

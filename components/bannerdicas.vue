@@ -4,8 +4,8 @@
 
       <section class="flex flex-col">
         <TitleDicas />
-          <p class="">Aqui você vê os enxôvais que estão em alto no mercado, e deixa sua casa com cara nova!</p>
-          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">Ver</nuxt-link>
+          <p class="">{{ $t('textTips') }}</p>
+          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">{{ $t('View') }}</nuxt-link>
       </section>
 
     </div>

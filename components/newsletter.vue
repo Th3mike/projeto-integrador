@@ -4,12 +4,12 @@
       <section class="flex items-center justify-between">
         <div>
           <h3 class="text-3xl font-extrabold text-color-card">NEWSLETTER</h3>
-          <p class="text-color-card">Coloque aqui seu nome e email para receber todas as novidades e promoções em primeira mão.</p>
+          <p class="text-color-card">{{ $t('textNewsletter') }}</p>
         </div>
 
           <div class="news flex items-center">
-            <input type="text" placeholder="E-mail">
-            <nuxt-link to="">Enviar</nuxt-link>
+            <input type="text" placeholder="G-mail">
+            <nuxt-link to="">{{ $t('submit') }}</nuxt-link>
           </div>
       </section>
     </div>
