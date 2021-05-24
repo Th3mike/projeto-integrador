@@ -306,7 +306,7 @@
               <span class="text-sm"><s>R$ 104,98</s></span>
               <p>R$ 89,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
@@ -327,12 +327,12 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgFour.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha5.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">{{ $t('tissue') }} Fm</h3>
+              <h3 class="text-base">{{ $t('primecarpet') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
@@ -342,14 +342,14 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgFive.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha6.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">{{ $t('doubleSheet') }}</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">{{ $t('smallrug') }}</h3>
+              <span class="text-sm"><s>R$ 68,98</s></span>
+              <p>R$ 44,99</p>
             </div>
             <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
@@ -357,29 +357,29 @@
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgSix.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha7.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
               <h3 class="text-base">Kit full</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <span class="text-sm"><s>R$ 90,98</s></span>
+              <p>R$ 59,99</p>
             </div>
-            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>>
+            <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>
         </li>
 
         <li class="w-56 h-64 mb-5 rounded">
           <div class="w-full h-40">
-            <img src="../assets/imgSeven.png" class="rounded" alt="Produtos Stacy">
+            <img src="../assets/Cozinha/cozinha8.jpg" class="rounded" alt="Produtos Stacy">
           </div>
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">{{ $t('doubleSheet') }}</h3>
-              <span class="text-sm"><s>R$ 73,98</s></span>
-              <p>R$ 36,99</p>
+              <h3 class="text-base">{{ $t('smallcurtain') }}</h3>
+              <span class="text-sm"><s>R$ 139,98</s></span>
+              <p>R$ 89,99</p>
             </div>
             <a class="btn-buy" href="https://api.whatsapp.com/send?phone=551499685-3425" target="_blank">{{ $t('PURCHASE') }}</a>
           </section>

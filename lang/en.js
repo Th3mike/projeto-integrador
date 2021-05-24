@@ -15,7 +15,7 @@ export default {
   coupleKit: 'Couple Kit',
   PURCHASE: 'PURCHASE',
   luxuryCouple: 'Luxury Couple',
-  doubleSheet: 'Double sheet',
+  smallcurtain: 'Small Curtain',
   grayKit: 'Gray Kit',
   femaleKit: 'Female Kit',
   luxuryGame: 'Luxury Game',
@@ -67,7 +67,8 @@ export default {
   yourMessage: 'Your message',
   submit: 'Submit',
   textNewsletter: 'Put your name and e-mail here to receive all the news and promotions first hand.',
-
+  smallrug:'Small Rug',
+  primecarpet:'Prime Carpet',
 
 
 

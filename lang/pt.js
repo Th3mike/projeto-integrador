@@ -15,7 +15,7 @@ export default {
   coupleKit: 'Kit Casal',
   PURCHASE: 'COMPRAR',
   luxuryCouple: 'Casal Luxo',
-  doubleSheet: 'Lençol Casal',
+  smallcurtain: 'Cortina pequena',
   grayKit: 'Kit Cinza',
   femaleKit: 'Kit Feminino',
   luxuryGame: 'Jogo Luxo',
@@ -67,4 +67,6 @@ export default {
   yourMessage: 'Sua mensagem',
   submit: 'Enviar',
   textNewsletter: 'Coloque aqui seu nome e e-mail para receber todas as novidades e promoções em primeira mão.',
+  smallrug:'Tapete pequeno',
+  primecarpet:'Tapete prime',
 }
