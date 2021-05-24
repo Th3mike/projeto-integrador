@@ -1,7 +1,7 @@
 <template>
   <main>
     <Banner-contato class="banner-contato" />
-    <SectionForm />
+    <SectionForm id="contato"/>
     <Newsletter />
   </main>
 </template>

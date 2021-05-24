@@ -1,11 +1,11 @@
 <template>
   <article class="banner px-6 flex justify-center items-center">
     <div class="container ">
-  
+
       <section class="flex flex-col">
         <TitleBanner />
           <p class="">{{ $t('textContact') }}</p>
-          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">{{ $t('toTalk') }}</nuxt-link>
+          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2" v-scroll-to="'#contato'">{{ $t('toTalk') }}</nuxt-link>
       </section>
 
     </div>

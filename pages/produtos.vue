@@ -2,7 +2,7 @@
 <main>
   <Bannerprodutos class="banner-produtos"/>
   <Cardsprodutos/>
- 
+
   </main>
 </template>
 
