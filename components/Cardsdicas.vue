@@ -1,4 +1,5 @@
 <template>
+<div>
  <div class=" flex justify-center flex-wrap p-10">
        
     <!--Card 1-->
@@ -44,6 +45,18 @@
      
     </div>
   </div>
+  <div class="cor pt-4 mb-40">
+    <div class="titulo text-2xl mb-2 text-center font-thin">Video</div>
+  <div class="cor flex justify-center pt-8 shadow-lg">
+    
+    <iframe width="40%" height="90%" src="https://www.youtube.com/embed/pXY_ZVEQA9A" 
+    title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+  </div>
+  </div>
+</div>
 </template>
 
 
@@ -55,5 +68,11 @@
   max-width: 100%;
   background-color: #8F857D;
 }
-
+.cor {
+  background-image: url("../assets/cordicas.png");
+  height: 350px;
+}
+.cor1{
+  background-image: url("../assets/cordicas.png");
+}
 </style>
