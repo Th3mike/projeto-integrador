@@ -139,7 +139,7 @@ export default {
           4000
         );
       }
-      if (!this.email) {
+      else if (!this.email) {
         this.$notify(
           {
             group: "error",
@@ -149,7 +149,7 @@ export default {
           4000
         );
       }
-      if (!this.telefone) {
+      else if (!this.telefone) {
         this.$notify(
           {
             group: "error",
@@ -159,7 +159,7 @@ export default {
           4000
         );
       }
-      if (!this.mensagem) {
+      else if (!this.mensagem) {
         this.$notify(
           {
             group: "error",
@@ -169,7 +169,7 @@ export default {
           4000
         );
       }
-      if (this.name && this.email && this.telefone && this.mensagem) {
+      else if (this.name && this.email && this.telefone && this.mensagem) {
         this.$notify(
           {
             group: "success",
