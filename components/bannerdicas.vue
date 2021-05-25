@@ -1,5 +1,5 @@
 <template>
-  <article class="banner px-6 flex justify-center items-center">
+  <article class="cor px-48 flex justify-around items-center">
     <div class="container ">
 
       <section class="flex flex-col">
@@ -7,8 +7,12 @@
           <p class="">{{ $t('textTips') }}</p>
           <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">{{ $t('View') }}</nuxt-link>
       </section>
-
+      </div>
+    <div class="img-dicas">
+      <img src="../assets/dicas.png">
     </div>
+
+    
   </article>
   
 </template>
@@ -19,17 +23,11 @@ section{
   width: 50%;
 }
 .btn-buy{
-  width: 33%;
+  width: 158px;
 }
-.banner {
-  width: 100%;
+.cor {
+  background-image: url("../assets/cordicas.png");
   height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.banner-dicas {
-  background-image: url("../assets/bannerDicas.png");
 }
 /* ----------------- */
 @media only screen and (max-width: 699px) {
@@ -37,8 +35,11 @@ section{
 section{
   width: 100%;
 }
-
-  /* -------------Conteúdo---------------- */
-
+.cor{
+  padding: 1.5rem;
+}
+.img-dicas{
+  display: none;
+}
 }
 </style>
