@@ -32,7 +32,7 @@
 </footer>
 
 <div class="after-footer flex items-center justify-center">
-    <p class="text-base"><span class="text-lg">STACY STORE</span> - {{ $t('rightsReserved!') }}</p>
+    <p class="text-base"><span class="text-lg">STACY STORE</span> - {{ $t('rightsReserved') }}</p>
 </div>
 
 </main>

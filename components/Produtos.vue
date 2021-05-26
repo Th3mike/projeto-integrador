@@ -40,7 +40,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">{{ $t('doubleSheet') }}</h3>
+              <h3 class="text-base">{{ $t('luxuryGame') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
@@ -115,7 +115,7 @@
 
           <section class="h-20 flex flex-row items-center justify-around mt-2">
             <div class="flex flex-col text-color-card">
-              <h3 class="text-base">{{ $t('doubleSheet') }}</h3>
+              <h3 class="text-base">{{ $t('femaleKit') }}</h3>
               <span class="text-sm"><s>R$ 73,98</s></span>
               <p>R$ 36,99</p>
             </div>
