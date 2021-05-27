@@ -39,6 +39,10 @@ section{
 }
 
   /* -------------Conteúdo---------------- */
+  .banner {
+    background-color: rgb(222,203,183);
+    background-image: none;
+}
 
 }
 </style>
