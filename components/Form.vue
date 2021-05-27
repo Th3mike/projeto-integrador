@@ -6,29 +6,35 @@
     <h2
       class="title w-40 text-center text-2xl font-thin mx-auto mb-5 relative text-color-title"
     >
-      {{ $t('contact') }}
+      {{ $t("contact") }}
     </h2>
 
-    <form action="" v-on:submit.prevent="checkForm" class="w-full">
+    <form action="" v-on:submit.prevent="checkForm" class="w-full" novalidate>
       <fieldset class="flex flex-col">
-        <input type="name" v-model="name" :placeholder="$t('yourName')" />
+        <input
+          type="name"
+          v-model="name"
+          :placeholder="$t('yourName')"
+          @keypress="isLetter($event)"
+          :maxlength="max"
+        />
 
         <input type="email" v-model="email" :placeholder="$t('yourGmail')" />
 
         <input
           type="number"
           v-model="telefone"
-         :placeholder="$t('yourCellphone')"
+          :placeholder="$t('yourCellphone')"
           class=""
         />
         <textarea
           type="mensagem"
           v-model="mensagem"
-         :placeholder="$t('yourMessage')"
+          :placeholder="$t('yourMessage')"
           class="w-9/12"
         ></textarea>
 
-        <button class="btn-form">{{ $t('submit') }}</button>
+        <button class="btn-form">{{ $t("submit") }}</button>
       </fieldset>
     </form>
     <!--- Error --->
@@ -128,6 +134,10 @@ export default {
     };
   },
   methods: {
+    validEmail: function (email) {
+      var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    },
     checkForm: function () {
       if (!this.name) {
         this.$notify(
@@ -138,18 +148,25 @@ export default {
           },
           4000
         );
-      }
-      else if (!this.email) {
+      } else if (!this.email) {
         this.$notify(
           {
             group: "error",
             title: "Erro",
-            text: "Insira seu e-mail correto!",
+            text: "Insira seu e-mail!",
           },
           4000
         );
-      }
-      else if (!this.telefone) {
+      } else if (!this.validEmail(this.email)) {
+        this.$notify(
+          {
+            group: "error",
+            title: "Erro",
+            text: "Insira um e-mail válido!",
+          },
+          4000
+        );
+      } else if (!this.telefone) {
         this.$notify(
           {
             group: "error",
@@ -158,8 +175,7 @@ export default {
           },
           4000
         );
-      }
-      else if (!this.mensagem) {
+      } else if (!this.mensagem) {
         this.$notify(
           {
             group: "error",
@@ -168,8 +184,7 @@ export default {
           },
           4000
         );
-      }
-      else if (this.name && this.email && this.telefone && this.mensagem) {
+      } else if (this.name && this.email && this.telefone && this.mensagem) {
         this.$notify(
           {
             group: "success",
@@ -180,6 +195,11 @@ export default {
         );
         this.name = this.email = this.telefone = this.mensagem = "";
       }
+    },
+    isLetter(e) {
+      let char = String.fromCharCode(e.keyCode);
+      if (/^[A-Za-z- ]+$/.test(char)) return true;
+      else e.preventDefault();
     },
   },
 };
