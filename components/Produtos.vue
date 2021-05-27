@@ -3,7 +3,7 @@
     <div class="container">
       <ul class="flex justify-between flex-wrap">
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgOne.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -18,7 +18,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgTwo.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -33,7 +33,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgThree.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -48,7 +48,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgTen.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -63,7 +63,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgFour.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -78,7 +78,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgFive.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -93,7 +93,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgSix.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -108,7 +108,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgSeven.png" class="rounded" alt="Produtos Stacy">
           </div>

@@ -8,7 +8,7 @@
         </div>
 
           <div class="news flex items-center">
-            <input type="text" placeholder="G-mail">
+            <input type="text" placeholder="E-mail">
             <nuxt-link to="">{{ $t('submit') }}</nuxt-link>
           </div>
       </section>

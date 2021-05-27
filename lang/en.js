@@ -62,7 +62,7 @@ export default {
   textContact: 'Talk to us, did you miss any product? Any questions or suggestions? Contact us in the form below!',
   toTalk: 'To Talk',
   yourName: 'Your name',
-  yourGmail: 'Your g-mail',
+  yourGmail: 'Your E-mail',
   yourCellphone: 'Your cellphone',
   yourMessage: 'Your message',
   submit: 'Submit',

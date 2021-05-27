@@ -62,7 +62,7 @@ export default {
   textContact: 'Converse com a gente, sentiu falta de algum produto?Alguma dúvida ou sugestão? Fale conosco no formulário abaixo!',
   toTalk: 'Conversar',
   yourName: 'Seu nome',
-  yourGmail: 'Seu G-mail',
+  yourGmail: 'Seu E-mail',
   yourCellphone: 'Seu Telefone',
   yourMessage: 'Sua mensagem',
   submit: 'Enviar',

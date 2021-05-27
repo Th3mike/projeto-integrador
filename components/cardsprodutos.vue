@@ -7,7 +7,7 @@
     <div class="container flex flex-wrap">
       <ul class="flex justify-between flex-wrap">
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto1.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -22,7 +22,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto2.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -37,7 +37,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto3.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -52,7 +52,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto4.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -67,7 +67,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto5.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -82,7 +82,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto6.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -97,7 +97,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/imgSix.png" class="rounded" alt="Produtos Stacy">
           </div>
@@ -112,7 +112,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Quarto/quarto8.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -136,7 +136,7 @@
 <div class="container">
       <ul class="flex justify-between flex-wrap">
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro1.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -151,7 +151,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro2.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -166,7 +166,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro3.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -181,7 +181,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro4.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -196,7 +196,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro5.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -211,7 +211,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro6.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -226,7 +226,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro7.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -241,7 +241,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Banheiro/banheiro8.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -265,7 +265,7 @@
 <div class="container">
       <ul class="flex justify-between flex-wrap">
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha1.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -280,7 +280,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha2.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -295,7 +295,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha3.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -310,7 +310,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha4.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -325,7 +325,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha5.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -340,7 +340,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha6.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -355,7 +355,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha7.jpg" class="rounded" alt="Produtos Stacy">
           </div>
@@ -370,7 +370,7 @@
           </section>
         </li>
 
-        <li class="w-56 h-64 mb-5 rounded shadow-lg">
+        <li title="Produtos" class="w-56 h-64 mb-5 rounded shadow-lg">
           <div class="w-full h-40">
             <img src="../assets/Cozinha/cozinha8.jpg" class="rounded" alt="Produtos Stacy">
           </div>
