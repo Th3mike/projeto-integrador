@@ -115,8 +115,8 @@ animation: btnEfect infinite 1s;
 
 </style>
 <script>
-import Vue from 'vue';
 
+import Vue from 'vue';
 import Meta from 'vue-meta';
 
 Vue.use(Meta);
