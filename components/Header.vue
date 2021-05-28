@@ -185,13 +185,13 @@
   background-color: #5C5552;
 
 }
-.language:hover ul li {
+.language:hover ul li, .language:focus ul li  {
   color: #f3f3f3;
   font-size: 16px;
   transition: all linear 0.2s;
 }
 
-.language:hover ul li:hover {
+.language:hover ul li:hover , .language:focus ul li {
   transition: all linear 0.2s;
  margin-left: 5px;
   color: #fff;
