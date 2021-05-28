@@ -1,22 +1,22 @@
-<template>
+<template >
   <article
     id="app"
     class="w-2/4 flex flex-col items-center justify-start text-bg-marrom-100 px-5 pt-6 rounded"
   >
-    <h2
+    <h2 
       class="title w-40 text-center text-2xl font-thin mx-auto mb-5 relative text-color-title"
     >
       {{ $t("contact") }}
     </h2>
 
-    <form action="" v-on:submit.prevent="checkForm" class="w-full" novalidate>
+    <form action="" id="ct" v-on:submit.prevent="checkForm" class="w-full" novalidate>
       <fieldset class="flex flex-col">
         <input
           type="name"
           v-model="name"
           :placeholder="$t('yourName')"
           @keypress="isLetter($event)"
-          :maxlength="max"
+        
         />
 
         <input type="email" v-model="email" :placeholder="$t('yourGmail')" />

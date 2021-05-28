@@ -20,6 +20,7 @@
     "stylus": "^0.54.8",
     "stylus-loader": "3",
     "vt-notifications": "^0.4.1",
+    "vue-meta": "^2.4.0",
     "vue-simple-alert": "^1.1.1",
     "yarn": "^1.22.10"
   },

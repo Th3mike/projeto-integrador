@@ -13,7 +13,7 @@
           <form
             action=""
             v-on:submit.prevent="checkNewsletter"
-            class="w-full"
+            class="flex items-center w-full"
             novalidate
           >
             <input type="email" v-model="email" placeholder="E-mail" />
@@ -167,15 +167,16 @@ export default {
 
 .news input {
   width: 100%;
-  height: 40px;
+  height: 50px;
   text-align: center;
   padding: 5px 15px;
   color: #5c5552;
-
+  margin-right: 10px;
   border-radius: 4px;
 }
 .btn-form {
   width: 100%;
+  max-width: 130px;
   height: 50px;
   margin-top: 5px;
   margin-bottom: 5px;

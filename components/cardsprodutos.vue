@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-5 px-6">
+  <section id="pd" class="mt-5 px-6">
       <!--Cards Quarto--> 
  <div class="titulos">
      <h2 class="title tq w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('room') }}</h2>

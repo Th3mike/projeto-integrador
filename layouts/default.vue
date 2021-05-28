@@ -15,6 +15,7 @@ html {
   height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -113,3 +114,29 @@ animation: btnEfect infinite 1s;
 
 
 </style>
+<script>
+import Vue from 'vue';
+
+import Meta from 'vue-meta';
+
+Vue.use(Meta);
+
+
+export default {
+    name: 'App',
+    metaInfo: {
+      title: 'Stacy | Seja bem vindo!',
+      // override the parent template and just use the above title only
+      titleTemplate: '%s ← Home',
+      htmlAttrs: {
+      lang: 'en-US'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Loja Stacy, aqui você encontra tudo sobre enxovais, lençóis e muito mais! Garanta já conforto e qualidade na sua casa' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ]
+  }
+  
+}
+</script>

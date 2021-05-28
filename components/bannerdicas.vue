@@ -5,7 +5,7 @@
       <section class="flex flex-col">
         <TitleDicas />
           <p class="">{{ $t('textTips') }}</p>
-          <nuxt-link to="" class="btn-buy mt-4 px-6 py-2">{{ $t('View') }}</nuxt-link>
+          <nuxt-link to="#dc" class="btn-buy mt-4 px-6 py-2">{{ $t('View') }}</nuxt-link>
       </section>
       </div>
     <div class="img-dicas">

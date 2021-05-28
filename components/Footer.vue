@@ -10,9 +10,9 @@
 
         <li class="flex flex-col">
             <h2 class="text-lg">{{ $t('siteMap') }}</h2>
-            <nuxt-link to="" class="uppercase">{{ $t('products') }}</nuxt-link>
-            <nuxt-link to="" class="uppercase">{{ $t('tips') }}</nuxt-link>
-            <nuxt-link to="" class="uppercase">{{ $t('contact') }}</nuxt-link>
+            <nuxt-link to="/produtos" class="uppercase">{{ $t('products') }}</nuxt-link>
+            <nuxt-link to="/dicas" class="uppercase">{{ $t('tips') }}</nuxt-link>
+            <nuxt-link to="/contato" class="uppercase">{{ $t('contact') }}</nuxt-link>
         </li>
 
         <li class="flex flex-col">

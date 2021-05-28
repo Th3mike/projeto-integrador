@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="dc">
  <div class=" flex justify-center flex-wrap p-10">
        
     <!--Card 1-->
