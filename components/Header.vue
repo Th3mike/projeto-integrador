@@ -21,7 +21,7 @@
             <li><nuxt-link to="" class="language">
               {{ $t('languages') }}
               <ul class="hidden">
-                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')">{{ $t('english') }}</li>
+                <li key="flag-us" v-if="$i18n.locale === 'pt'" @click="setLocale('en')"> {{ $t('english') }}</li>
                 <li key="flag-br" v-else @click="setLocale('pt')">{{ $t('portuguese') }}</li>
               </ul>
               </nuxt-link> </li>
@@ -182,6 +182,7 @@
   width: 150px;
   padding: 10px;
 
+  color: #f3f3f3;
   background-color: #5C5552;
 
 }
