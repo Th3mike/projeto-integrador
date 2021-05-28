@@ -245,7 +245,7 @@ select:focus {
   display: block;
   height: 1px;
   width: 35px;
-  margin-left: 14px;
+  margin-left: 30px;
   background-color: #433633;
 }
 .title::after {
@@ -254,7 +254,7 @@ select:focus {
   display: block;
   height: 1px;
   width: 35px;
-  right: 14px;
+  right: 30px;
   background-color: #433633;
 }
 @media only screen and (max-width: 699px) {
