@@ -5,7 +5,7 @@
 <TitleBody /> 
 <Produtos />
 
-<h2 class="title w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('whoweare') }}</h2>
+<h2 class="title w-40 text-center text-2xl mx-auto mt-20 relative text-color-title">{{ $t('whoweare') }}</h2>
 
 <article class="QS w-full h-56 px-5 text-bg-marrom-100 mt-5">
   <div class="container">
@@ -50,7 +50,9 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-
+.title{
+  width: 173px;
+}
 .title::before{
 content: "";
 display: block;

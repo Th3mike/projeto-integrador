@@ -2,7 +2,7 @@
   <section id="pd" class="mt-5 px-6">
       <!--Cards Quarto--> 
  <div class="titulos">
-     <h2 class="title tq w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('room') }}</h2>
+     <h2 class="title tq w-40 text-center text-2xl mx-auto mt-20 relative text-color-title">{{ $t('room') }}</h2>
      </div>
     <div class="container flex flex-wrap">
       <ul class="flex justify-between flex-wrap">
@@ -131,7 +131,7 @@
   </div>
 <!--Cards Banheiro-->
    <div class="titulos">
-       <h2 class="title tb w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('restroom') }}</h2>
+       <h2 class="title tb w-40 text-center text-2xl  mx-auto mt-20 relative text-color-title">{{ $t('restroom') }}</h2>
    </div>
 <div class="container">
       <ul class="flex justify-between flex-wrap">
@@ -260,7 +260,7 @@
   </div>
   <!--Cards Cozinha-->
    <div class="titulos">
-       <h2 class="title tc w-40 text-center text-2xl font-thin mx-auto mt-20 relative text-color-title">{{ $t('Kitchen') }}</h2>
+       <h2 class="title tc w-40 text-center text-2xl  mx-auto mt-20 relative text-color-title">{{ $t('Kitchen') }}</h2>
    </div>
 <div class="container">
       <ul class="flex justify-between flex-wrap">

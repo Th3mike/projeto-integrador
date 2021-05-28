@@ -4,7 +4,7 @@
     class="w-2/4 flex flex-col items-center justify-start text-bg-marrom-100 px-5 pt-6 rounded"
   >
     <h2 
-      class="title w-40 text-center text-2xl font-thin mx-auto mb-5 relative text-color-title"
+      class="title w-40 text-center text-2xl mx-auto mb-5 relative text-color-title"
     >
       {{ $t("contact") }}
     </h2>

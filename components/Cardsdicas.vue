@@ -5,7 +5,7 @@
     <!--Card 1-->
     <div title="Card Quarto"  class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('room') }}</div>
+      <div class="titulo text-2xl mb-2 text-center">{{ $t('room') }}</div>
       <div class="px-6 py-4">
         <div class="card1">
             <img src="../assets/card1.jpg" alt="Quarto">
@@ -15,7 +15,7 @@
      <!--Card 2-->
     <div title="Card Cozinha" class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('Kitchen') }}</div>
+      <div class="titulo text-2xl mb-2 text-center">{{ $t('Kitchen') }}</div>
       <div class="px-6 py-4">
           <div class="card1">
             <img src="../assets/Cozinha.jpg" alt="Cozinha">
@@ -26,7 +26,7 @@
      <!--Card 3-->
     <div title="Card Banheiro" class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('restroom') }}</div>
+      <div class="titulo text-2xl mb-2 text-center">{{ $t('restroom') }}</div>
       <div class="px-6 py-4">
           <div class="banheiro">
             <img src="../assets/Banheiro.jpg" alt="Banheiro">
@@ -36,7 +36,7 @@
      <!--Card 4-->
     <div title="Card Sala" class="card max-w-xl m-2  rounded overflow-hidden shadow-lg">
       <br>
-      <div class="titulo text-2xl mb-2 text-center font-thin">{{ $t('livingRoom') }}</div>
+      <div class="titulo text-2xl mb-2 text-center">{{ $t('livingRoom') }}</div>
       <div class="px-6 py-4">
           <div class="sala">
             <img src="../assets/Sala.jpg" alt="Sala">
@@ -46,7 +46,7 @@
     </div>
   </div>
   <div title="Vídeo" class="cor pt-4 mb-40">
-    <div class="titulo text-2xl mb-2 text-center font-thin">Video</div>
+    <div class="titulo text-2xl mb-2 text-center">Video</div>
   <div class="cor flex justify-center pt-8 shadow-lg pb-4">
     
     <iframe class="video" width="45%" height="100%" src="https://www.youtube.com/embed/pXY_ZVEQA9A" 
