@@ -175,7 +175,7 @@
   transition: color linear 0.2s;
   color: #000;
 }
-.language:hover ul{
+.language:hover ul, language:focus ul{
   display: block;
   position: absolute;
   z-index: 999;
